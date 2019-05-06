@@ -36,10 +36,10 @@ module.exports = {
 		agent: '/path/to/ssh/agent'
 		// or specify private key
 		privateKey: '/home/levi/.ssh/id_rsa'
-		// See [node-ssh](https://www.npmjs.com/package/node-ssh) for more config options
 	}
 }
 ```
+See [node-ssh](https://www.npmjs.com/package/node-ssh) for more SSH configuration options
 
 ##### Example
 ```config
