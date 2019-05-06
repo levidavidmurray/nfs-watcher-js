@@ -1,7 +1,7 @@
 # NFS Watcher
-### Watches all files in a specified local directory, and forces a filesystem update on the remote machine whenever the file is changed locally. Useful for things like hot reloading with webpack when the source files are not local to where they're being used.
+#### Watches all files in a specified local directory, and forces a filesystem update on the remote machine whenever the file is changed locally. Useful for things like hot reloading with webpack when the source files are not local to where they're being used.
 
-#### watcher.config.js
+##### watcher.config.js
 ```config
 module.exports = {
 	localWatchDir: "/path/to/watch/directory/", // Array for multiple directories
@@ -20,7 +20,7 @@ module.exports = {
 }
 ```
 
-#### Example
+##### Example
 ```config
 module.exports = {
 	localWatchDir: ["/home/levi/myApp/src", "home/levi/myApp/lib"],
