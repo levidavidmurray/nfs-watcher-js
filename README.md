@@ -1,5 +1,5 @@
 # NFS Watcher
-#### Watches all files in a specified local directory, and forces a filesystem update on the remote machine whenever the file is changed locally. Useful for things like hot reloading with webpack when the source files are not local to where they're being used.
+Watches all files in a specified local directory, and forces a filesystem update on the remote machine whenever the file is changed locally. Useful for things like hot reloading with webpack when the source files are not local to where they're being used.
 
 ### Usage
 ```shell
